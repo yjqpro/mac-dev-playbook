@@ -29,57 +29,52 @@ dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/Development/GitHub/dotfiles
 dotfiles_files:
   - .zshrc
-  - .gitignore
-  - .inputrc
   - .osx
-  - .vimrc
+  - .p10k.zsh
+  - .tmux.conf
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - autoconf
-  - bash-completion
-  - doxygen
-  - gettext
-  - gifsicle
+  - cmake
   - git
-  - github/gh/gh
   - go
-  - gpg
-  - httpie
-  - iperf
-  - libevent
-  - sqlite
-  - mcrypt
-  - nmap
+  - lazygit
+  - lf
+  - lua
+  - neovim
+  - ninja
   - node
-  - nvm
-  - php
+  - pipx
+  - ripgrep
   - ssh-copy-id
-  - cowsay
-  - readline
-  - openssl
-  - pv
-  - wget
-  - wrk
-  - zsh-history-substring-search
+  - tmux
 
 homebrew_taps:
-  - homebrew/core
+  - github/gh
+  - homebrew/bundle
   - homebrew/cask
+  - homebrew/cask-fonts
+  - homebrew/core
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - chromedriver
-  - docker
+  - alfred
+  - appcleaner
   - dropbox
-  - firefox
+  - font-caskaydia-cove-nerd-font
+  - font-jetbrains-mono-nerd-font
   - google-chrome
-  - handbrake
-  - licecap
+  - iina
+  - keepassxc
+  - kitty
+  - macvim
+  - pdf-expert
+  - scroll-reverser
   - sequel-ace
-  - slack
-  - sublime-text
-  - transmit
+  - telegram-desktop
+  - the-unarchiver
+  - yinxiangbiji
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
